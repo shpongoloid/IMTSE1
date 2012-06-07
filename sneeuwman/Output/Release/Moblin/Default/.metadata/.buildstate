@@ -1,0 +1,37 @@
+rebuild-needed = false
+variant = Moblin/Default Release 
+success = true
+timestamp = 1339012504568
+output-main = C:\\\\Users\\\\Niek\\\\Dropbox\\\\workspaces\\\\workspaces\\\\moSync\\\\sneeuwman\\\\Output\\\\Release\\\\Moblin\\\\Default\\\\package\\\\sneeuwman_1.0-0_i386.deb
+
+[files]
+SneeuwMan.hpp = 1330952058000
+main.cpp = 1339012191959
+SneeuwVlok.hpp = 1339012191981
+.project = 1330347092000
+SneeuwLandschap.cpp = 1339012343500
+.settings/org.eclipse.core.resources.prefs = 1330347092000
+SneeuwVlok.cpp = 1339012504559
+.mosyncproject.local = 1333638465925
+SneeuwLandschap.hpp = 1330951730000
+.mosyncproject = 1333638465924
+.cproject = 1330347092000
+SneeuwVlok.h = 1330942024405
+SneeuwMan.cpp = 1339012417747
+
+[dependencies]
+/sneeuwman/main.cpp = /sneeuwman/Output/Release/Moblin/Default/main.s
+/sneeuwman/Output/Release/Moblin/Default/SneeuwMan.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/SneeuwMan.cpp
+/sneeuwman/Output/Release/Moblin/Default/SneeuwLandschap.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/SneeuwLandschap.hpp, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maxtoa.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/MAUtil/Vector.h, /sneeuwman/MoSync/include/mastdlib.h, /sneeuwman/SneeuwMan.hpp, /sneeuwman/SneeuwLandschap.cpp, /sneeuwman/SneeuwVlok.hpp
+/sneeuwman/SneeuwMan.cpp = /sneeuwman/Output/Release/Moblin/Default/SneeuwMan.s
+/sneeuwman/SneeuwLandschap.cpp = /sneeuwman/Output/Release/Moblin/Default/SneeuwLandschap.s
+/sneeuwman/Output/Release/Moblin/Default/SneeuwVlok.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maxtoa.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/mastdlib.h, /sneeuwman/SneeuwVlok.cpp
+/sneeuwman/SneeuwVlok.cpp = /sneeuwman/Output/Release/Moblin/Default/SneeuwVlok.s
+/sneeuwman/Output/Release/Moblin/Default/main.s = /sneeuwman/main.cpp, /sneeuwman/SneeuwLandschap.hpp, /sneeuwman/SneeuwMan.hpp
+
+[build-properties]
+build.prefs:additional.libraries/Debug = MAUtilD.lib
+template.id = project.moblet
+build.prefs:additional.libraries = MAUtil.lib
+profile.mgr.type = 0
+

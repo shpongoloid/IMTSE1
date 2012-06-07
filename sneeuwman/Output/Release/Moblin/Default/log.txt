@@ -1,0 +1,42 @@
+PerformanceFrequency: 3312871
+StartCount: 117425064294
+Hello World!
+argc: 12
+1:-program
+3:-resource
+5:-resolution
+8:-fd
+Emulator connected.
+10:-id
+fmt->BitsPerPixel: 32
+AddFontResourceEx: 2 faces added.
+InitVM .. 
+LoadVM
+maxCustomEventSize: 0x30
+Head.DataSize: 0x100000
+Head.StackSize: 0x20000
+Head.HeapSize: 0x80000
+Head.EntryPoint: 0xf356
+Head.CodeLen: 0x25869
+CODE_SEGMENT_SIZE: 0x40000
+Head.DataLen: 0x22a8
+Head.DataSize: 0x100000
+DATA_SEGMENT_SIZE: 0x100000
+Head.IntLen: 0x3be
+open(C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman\Output\Release\Moblin\Default\resources, 0x8000) failed: 2(No such file or directory)
+IDL version match!
+SDL_QUIT @ 9610
+Exit 0
+DumpCallStackEx:
+reportCallStack
+0
+IP: 0xf390
+Call stack: 1 frames
+0: 0xf392
+Exit @ IP 0xf390  SP 0xfffb0
+InstCount: 8856183
+IP: 0xF356
+Profile dumped.
+level: 1
+maxLevel: 7
+nodes: 80

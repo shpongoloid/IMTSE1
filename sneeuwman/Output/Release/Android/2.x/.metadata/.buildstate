@@ -1,0 +1,36 @@
+rebuild-needed = false
+variant = Android/2.x Release 
+success = true
+timestamp = 1333638442291
+output-main = C:\\\\Users\\\\Niek\\\\Dropbox\\\\workspaces\\\\workspaces\\\\moSync\\\\sneeuwman\\\\Output\\\\Release\\\\Android\\\\2.x\\\\package\\\\sneeuwman.apk
+
+[files]
+.settings/org.eclipse.core.resources.prefs = 1330347092000
+SneeuwMan.hpp = 1330952058000
+SneeuwVlok.cpp = 1331032839000
+.mosyncproject.local = 1333637939128
+SneeuwLandschap.hpp = 1330951730000
+.mosyncproject = 1333637939128
+main.cpp = 1330945867000
+.cproject = 1330347092000
+SneeuwVlok.hpp = 1330955003000
+.project = 1330347092000
+SneeuwLandschap.cpp = 1331031627000
+SneeuwMan.cpp = 1330951953000
+
+[dependencies]
+/sneeuwman/main.cpp = /sneeuwman/Output/Release/Android/2.x/main.s
+/sneeuwman/Output/Release/Android/2.x/main.s = /sneeuwman/MoSync/include/mactype.h, /sneeuwman/MoSync/include/mastring.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/main.cpp, /sneeuwman/SneeuwLandschap.hpp, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/conprint.h, /sneeuwman/MoSync/include/mavsprintf.h, /sneeuwman/MoSync/include/MAUtil/Vector.h, /sneeuwman/SneeuwMan.hpp, /sneeuwman/MoSync/include/maarg.h
+/sneeuwman/Output/Release/Android/2.x/SneeuwMan.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/SneeuwMan.cpp
+/sneeuwman/SneeuwMan.cpp = /sneeuwman/Output/Release/Android/2.x/SneeuwMan.s
+/sneeuwman/Output/Release/Android/2.x/SneeuwLandschap.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/SneeuwLandschap.hpp, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maxtoa.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/MAUtil/Vector.h, /sneeuwman/MoSync/include/mastdlib.h, /sneeuwman/SneeuwMan.hpp, /sneeuwman/SneeuwLandschap.cpp, /sneeuwman/SneeuwVlok.hpp
+/sneeuwman/Output/Release/Android/2.x/SneeuwVlok.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maxtoa.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/mastdlib.h, /sneeuwman/SneeuwVlok.cpp
+/sneeuwman/SneeuwLandschap.cpp = /sneeuwman/Output/Release/Android/2.x/SneeuwLandschap.s
+/sneeuwman/SneeuwVlok.cpp = /sneeuwman/Output/Release/Android/2.x/SneeuwVlok.s
+
+[build-properties]
+build.prefs:additional.libraries/Debug = MAUtilD.lib
+template.id = project.moblet
+build.prefs:additional.libraries = MAUtil.lib
+profile.mgr.type = 0
+
