@@ -1,5 +1,5 @@
-PerformanceFrequency: 3312871
-StartCount: 117425064294
+PerformanceFrequency: 3312851
+StartCount: 113838027699
 Hello World!
 argc: 12
 1:-program
@@ -23,9 +23,9 @@ Head.DataLen: 0x22a8
 Head.DataSize: 0x100000
 DATA_SEGMENT_SIZE: 0x100000
 Head.IntLen: 0x3be
-open(C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman\Output\Release\Moblin\Default\resources, 0x8000) failed: 2(No such file or directory)
+open(C:\Users\Niek\git\sneeuwman\sneeuwman\Output\Release\Moblin\Default\resources, 0x8000) failed: 2(No such file or directory)
 IDL version match!
-SDL_QUIT @ 9610
+SDL_QUIT @ 54451
 Exit 0
 DumpCallStackEx:
 reportCallStack
@@ -34,9 +34,9 @@ IP: 0xf390
 Call stack: 1 frames
 0: 0xf392
 Exit @ IP 0xf390  SP 0xfffb0
-InstCount: 8856183
+InstCount: 140746196
 IP: 0xF356
 Profile dumped.
 level: 1
 maxLevel: 7
-nodes: 80
+nodes: 82

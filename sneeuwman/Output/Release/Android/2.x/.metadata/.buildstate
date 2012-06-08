@@ -1,32 +1,32 @@
 rebuild-needed = false
 variant = Android/2.x Release 
 success = true
-timestamp = 1333638442291
-output-main = C:\\\\Users\\\\Niek\\\\Dropbox\\\\workspaces\\\\workspaces\\\\moSync\\\\sneeuwman\\\\Output\\\\Release\\\\Android\\\\2.x\\\\package\\\\sneeuwman.apk
+timestamp = 1339096827657
+output-main = C:\\\\Users\\\\Niek\\\\git\\\\sneeuwman\\\\sneeuwman\\\\Output\\\\Release\\\\Android\\\\2.x\\\\package\\\\HelloWorld2.apk
 
 [files]
-.settings/org.eclipse.core.resources.prefs = 1330347092000
 SneeuwMan.hpp = 1330952058000
-SneeuwVlok.cpp = 1331032839000
-.mosyncproject.local = 1333637939128
+.settings/org.eclipse.core.resources.prefs = 1330347092000
+.mosyncproject.local = 1333638465925
+SneeuwVlok.cpp = 1339012504559
 SneeuwLandschap.hpp = 1330951730000
-.mosyncproject = 1333637939128
-main.cpp = 1330945867000
-.cproject = 1330347092000
-SneeuwVlok.hpp = 1330955003000
-.project = 1330347092000
-SneeuwLandschap.cpp = 1331031627000
-SneeuwMan.cpp = 1330951953000
+.mosyncproject = 1333638465924
+main.cpp = 1339012191959
+.cproject = 1339096297539
+SneeuwVlok.hpp = 1339012191981
+.project = 1339096297435
+SneeuwLandschap.cpp = 1339012343500
+SneeuwMan.cpp = 1339012417747
 
 [dependencies]
-/sneeuwman/main.cpp = /sneeuwman/Output/Release/Android/2.x/main.s
-/sneeuwman/Output/Release/Android/2.x/main.s = /sneeuwman/MoSync/include/mactype.h, /sneeuwman/MoSync/include/mastring.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/main.cpp, /sneeuwman/SneeuwLandschap.hpp, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/conprint.h, /sneeuwman/MoSync/include/mavsprintf.h, /sneeuwman/MoSync/include/MAUtil/Vector.h, /sneeuwman/SneeuwMan.hpp, /sneeuwman/MoSync/include/maarg.h
-/sneeuwman/Output/Release/Android/2.x/SneeuwMan.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/SneeuwMan.cpp
-/sneeuwman/SneeuwMan.cpp = /sneeuwman/Output/Release/Android/2.x/SneeuwMan.s
-/sneeuwman/Output/Release/Android/2.x/SneeuwLandschap.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/SneeuwLandschap.hpp, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maxtoa.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/MAUtil/Vector.h, /sneeuwman/MoSync/include/mastdlib.h, /sneeuwman/SneeuwMan.hpp, /sneeuwman/SneeuwLandschap.cpp, /sneeuwman/SneeuwVlok.hpp
-/sneeuwman/Output/Release/Android/2.x/SneeuwVlok.s = /sneeuwman/MoSync/include/ma.h, /sneeuwman/Users/Niek/Dropbox/workspaces/workspaces/moSync/sneeuwman, /sneeuwman/MoSync/include/maapi.h, /sneeuwman/MoSync/include/maxtoa.h, /sneeuwman/MoSync/include/maapi_defs.h, /sneeuwman/MoSync/include/mastdlib.h, /sneeuwman/SneeuwVlok.cpp
-/sneeuwman/SneeuwLandschap.cpp = /sneeuwman/Output/Release/Android/2.x/SneeuwLandschap.s
-/sneeuwman/SneeuwVlok.cpp = /sneeuwman/Output/Release/Android/2.x/SneeuwVlok.s
+/HelloWorld2/Output/Release/Android/2.x/SneeuwLandschap.s = /HelloWorld2/MoSync/include/mastdlib.h, /HelloWorld2/MoSync/include/MAUtil/Vector.h, /HelloWorld2/MoSync/include/maapi.h, /HelloWorld2/SneeuwVlok.hpp, /HelloWorld2/MoSync/include/maxtoa.h, /HelloWorld2/SneeuwLandschap.cpp, /HelloWorld2/MoSync/include/ma.h, /HelloWorld2/SneeuwLandschap.hpp, /HelloWorld2/MoSync/include/maapi_defs.h, /HelloWorld2/SneeuwMan.hpp
+/HelloWorld2/SneeuwMan.cpp = /HelloWorld2/Output/Release/Android/2.x/SneeuwMan.s
+/HelloWorld2/Output/Release/Android/2.x/main.s = /HelloWorld2/main.cpp, /HelloWorld2/MoSync/include/maapi_defs.h, /HelloWorld2/SneeuwMan.hpp, /HelloWorld2/MoSync/include/mastring.h, /HelloWorld2/MoSync/include/mavsprintf.h, /HelloWorld2/MoSync/include/MAUtil/Vector.h, /HelloWorld2/MoSync/include/conprint.h, /HelloWorld2/MoSync/include/maapi.h, /HelloWorld2/MoSync/include/mactype.h, /HelloWorld2/Users/Niek/git/sneeuwman/sneeuwman, /HelloWorld2/MoSync/include/maarg.h, /HelloWorld2/MoSync/include/ma.h, /HelloWorld2/SneeuwLandschap.hpp
+/HelloWorld2/Output/Release/Android/2.x/SneeuwVlok.s = /HelloWorld2/MoSync/include/mastdlib.h, /HelloWorld2/MoSync/include/maapi.h, /HelloWorld2/Users/Niek/git/sneeuwman/sneeuwman, /HelloWorld2/MoSync/include/maxtoa.h, /HelloWorld2/SneeuwVlok.cpp, /HelloWorld2/MoSync/include/ma.h, /HelloWorld2/MoSync/include/maapi_defs.h
+/HelloWorld2/main.cpp = /HelloWorld2/Output/Release/Android/2.x/main.s
+/HelloWorld2/SneeuwVlok.cpp = /HelloWorld2/Output/Release/Android/2.x/SneeuwVlok.s
+/HelloWorld2/SneeuwLandschap.cpp = /HelloWorld2/Output/Release/Android/2.x/SneeuwLandschap.s
+/HelloWorld2/Output/Release/Android/2.x/SneeuwMan.s = /HelloWorld2/SneeuwMan.cpp, /HelloWorld2/MoSync/include/maapi.h, /HelloWorld2/Users/Niek/git/sneeuwman/sneeuwman, /HelloWorld2/MoSync/include/ma.h, /HelloWorld2/MoSync/include/maapi_defs.h
 
 [build-properties]
 build.prefs:additional.libraries/Debug = MAUtilD.lib

@@ -1,6 +1,6 @@
 .model full
-	.sourcedir 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman/'
-	.sourcefile 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman\main.cpp'
+	.sourcedir 'C:\Users\Niek\git\sneeuwman\sneeuwman/'
+	.sourcefile 'C:\Users\Niek\git\sneeuwman\sneeuwman\main.cpp'
 	.stabs	"gcc2_compiled.",60,0,0,0
 	.stabs	"__vtbl_ptr_type:t(0,1)=*(0,2)=f(0,3)=r(0,3);-2147483648;2147483647;",128,0,0,0
 	.stabs	"bool:t(0,4)=@s8;-16;",128,0,0,0
@@ -107,28 +107,28 @@
 	.stabs	"va_list:t(5,2)=(5,1)",128,0,35,0
 	.stabn	162,0,0,0
 	.stabn	162,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwLandschap.hpp",130,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwMan.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwLandschap.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwMan.hpp",130,0,0,0
 	.stabn	162,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwVlok.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwVlok.hpp",130,0,0,0
 	.stabs	"SneeuwVlok:Tt(8,1)=s24positionX:/0(0,3),0,32;positionY:/0(0,3),32,32;size:/0(0,3),64,32;speed:/0(0,3),96,32;direction:/0(0,3),128,32;dead:/0(0,4),160,8;__base_ctor::(8,2)=#(8,1),(0,6),(8,3)=*(8,1),(0,3),(0,3),(0,6);:_ZN10SneeuwVlokC2Eii;2A.;__comp_ctor::(8,2):_ZN10SneeuwVlokC1Eii;2A.;draw::(8,4)=#(8,1),(0,6),(8,3),(0,6);:_ZN10SneeuwVlok4drawEv;2A.;fall::(8,5)=#(8,1),(0,6),(8,3),(0,3),(0,6);:_ZN10SneeuwVlok4fallEi;2A.;isDead::(8,6)=#(8,1),(0,4),(8,3),(0,6);:_ZN10SneeuwVlok6isDeadEv;2A.;operator=::(8,7)=#(8,1),(8,8)=&(8,1),(8,3),(8,9)=&(8,10)=k(8,1),(0,6);:_ZN10SneeuwVlokaSERKS_;2A.;__base_ctor::(8,11)=#(8,1),(0,6),(8,3),(8,9),(0,6);:_ZN10SneeuwVlokC2ERKS_;2A.;__comp_ctor::(8,11):_ZN10SneeuwVlokC1ERKS_;2A.;;",128,0,14,0
 	.stabn	162,0,0,0
 	.stabs	"Vector<SneeuwVlok*>:Tt(6,1)=s12mSize:/1(0,3),0,32;mCapacity:/1(0,3),32,32;mData:/1(6,2)=*(8,3),64,32;__base_ctor::(6,3)=#(6,1),(0,6),(6,4)=*(6,1),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEC2Ei;2A.;__comp_ctor::(6,3):_ZN6MAUtil6VectorIP10SneeuwVlokEC1Ei;2A.;__base_ctor::(6,5)=#(6,1),(0,6),(6,4),(6,6)=*(6,7)=k(8,3),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEC2EPKS2_i;2A.;__comp_ctor::(6,5):_ZN6MAUtil6VectorIP10SneeuwVlokEC1EPKS2_i;2A.;__base_ctor::(6,8)=#(6,1),(0,6),(6,4),(6,9)=&(6,10)=k(6,1),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEC2ERKS3_;2A.;__comp_ctor::(6,8):_ZN6MAUtil6VectorIP10SneeuwVlokEC1ERKS3_;2A.;__base_dtor::(6,11)=#(6,1),(0,6),(6,4),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokED2Ev;2A.;__comp_dtor::(6,11):_ZN6MAUtil6VectorIP10SneeuwVlokED1Ev;2A.;operator=::(6,12)=#(6,1),(6,13)=&(6,1),(6,4),(6,9),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEaSERKS3_;2A.;add::(6,14)=#(6,1),(0,6),(6,4),(6,15)=&(6,7),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE3addERKS2_;2A.(6,5):_ZN6MAUtil6VectorIP10SneeuwVlokE3addEPKS2_i;2A.;remove::(6,16)=#(6,1),(0,6),(6,4),(6,2),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6removeEPS2_;2A.(6,17)=#(6,1),(0,6),(6,4),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6removeEi;2A.(6,18)=#(6,1),(0,6),(6,4),(0,3),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6removeEii;2A.;insert::(6,19)=#(6,1),(0,6),(6,4),(0,3),(8,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6insertEiS2_;2A.;size::(6,20)=#(6,1),(0,3),(6,21)=*(6,10),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokE4sizeEv;2B.;resize::(6,17):_ZN6MAUtil6VectorIP10SneeuwVlokE6resizeEi;2A.;reserve::(6,17):_ZN6MAUtil6VectorIP10SneeuwVlokE7reserveEi;2A.;clear::(6,11):_ZN6MAUtil6VectorIP10SneeuwVlokE5clearEv;2A.;empty::(6,22)=#(6,1),(0,4),(6,21),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokE5emptyEv;2B.;capacity::(6,20):_ZNK6MAUtil6VectorIP10SneeuwVlokE8capacityEv;2B.;begin::(6,23)=#(6,1),(6,2),(6,4),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE5beginEv;2A.;end::(6,23):_ZN6MAUtil6VectorIP10SneeuwVlokE3endEv;2A.;begin::(6,24)=#(6,1),(6,6),(6,21),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokE5beginEv;2B.;end::(6,24):_ZNK6MAUtil6VectorIP10SneeuwVlokE3endEv;2B.;operator[]::(6,25)=#(6,1),(6,26)=&(8,3),(6,4),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEixEi;2A.(6,27)=#(6,1),(6,15),(6,21),(0,3),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokEixEi;2B.;pointer::(6,24):_ZNK6MAUtil6VectorIP10SneeuwVlokE7pointerEv;2B.(6,23):_ZN6MAUtil6VectorIP10SneeuwVlokE7pointerEv;2A.;;",128,0,94,0
 	.stabs	"SneeuwLandschap:Tt(6,28)=s24sneeuwHoogte:/0(0,3),0,32;sneeuwUpper:/0(0,3),32,32;sneeuwMan:/0(6,29)=*(6,30)=xsSneeuwMan:,64,32;sneeuwVlokArray:/0(6,1),96,96;__base_ctor::(6,31)=#(6,28),(0,6),(6,32)=*(6,28),(0,6);:_ZN15SneeuwLandschapC2Ev;2A.;__comp_ctor::(6,31):_ZN15SneeuwLandschapC1Ev;2A.;draw::(6,31):_ZN15SneeuwLandschap4drawEv;2A.;run::(6,33)=#(6,28),(0,6),(6,32),(2,144),(0,6);:_ZN15SneeuwLandschap3runE7MAEvent;2A.;operator=::(6,34)=#(6,28),(6,35)=&(6,28),(6,32),(6,36)=&(6,37)=k(6,28),(0,6);:_ZN15SneeuwLandschapaSERKS_;2A.;__base_ctor::(6,38)=#(6,28),(0,6),(6,32),(6,36),(0,6);:_ZN15SneeuwLandschapC2ERKS_;2A.;__comp_ctor::(6,38):_ZN15SneeuwLandschapC1ERKS_;2A.;__base_dtor::(6,31):_ZN15SneeuwLandschapD2Ev;2A.;__comp_dtor::(6,31):_ZN15SneeuwLandschapD1Ev;2A.;;",128,0,18,0
 	.stabn	162,0,0,0
 .code
-	.stabs	"MAMain:F(0,3)",36,0,10,_MAMain
+	.stabs	"MAMain:F(0,3)",36,0,9,_MAMain
 	.global	_MAMain
 
 .func _MAMain, 0, int
-	.line 10
+	.line 9
 	push rt,d1
 	sub  sp,#0x28
 	ld   fr,sp
 	add  fr,#0x38
 	.dlab LBB2
 	.dlab LBB3
-	.line 14
+	.line 13
 	ld   i0,#0x18
 	call &__Znwm ; call non-native
 	ld   d0,r14
@@ -138,37 +138,37 @@
 	add  d1,#0xffffffdc
 	jp   #L2
 L6:
-	.line 33
+	.line 32
 	ld   i0,sp
 	ld   i1,d1
 	ld   i2,#0x14
 	call &_memcpy ; call non-native
 	ld   i0,d0
 	call &__ZN15SneeuwLandschap3runE7MAEvent ; call non-native
-	.line 36
+	.line 35
 	ld   i0,d0
 	call &__ZN15SneeuwLandschap4drawEv ; call non-native
-	.line 39
+	.line 38
 	call &_maUpdateScreen ; call non-native
 L2:
-	.line 20
+	.line 19
 	ld   i0,#0x28
 	call &_maWait ; call non-native
-	.line 23
+	.line 22
 	ld   i0,d1
 	call &_maGetEvent ; call non-native
-	.line 26
+	.line 25
 	ld   r14,[fr,-36]
 	ld   r0,#0x1
 	jc   ne,r14,r0,#L6
 	.dlab LBE3
 	.dlab LBE2
-	.line 43
+	.line 42
 	ld   r14,#0x0
 	add  sp,#0x28
 	pop  rt,d1
 	ret
-	.stabs	"event:(2,144)",128,0,11,-36
+	.stabs	"event:(2,144)",128,0,10,-36
 	.stabn	192,0,0,LBB3-_MAMain
 	.stabn	224,0,0,LBE3-_MAMain
 Lscope0:

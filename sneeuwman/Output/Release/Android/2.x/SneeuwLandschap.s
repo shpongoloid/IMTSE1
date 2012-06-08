@@ -1,6 +1,6 @@
 .model full
-	.sourcedir 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman/'
-	.sourcefile 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman\SneeuwLandschap.cpp'
+	.sourcedir 'C:\Users\Niek\git\sneeuwman\sneeuwman/'
+	.sourcefile 'C:\Users\Niek\git\sneeuwman\sneeuwman\SneeuwLandschap.cpp'
 	.stabs	"gcc2_compiled.",60,0,0,0
 	.stabs	"__vtbl_ptr_type:t(0,1)=*(0,2)=f(0,3)=r(0,3);-2147483648;2147483647;",128,0,0,0
 	.stabs	"bool:t(0,4)=@s8;-16;",128,0,0,0
@@ -25,7 +25,7 @@
 	.stabs	"complex double:t(0,22)=R3;16;0;",128,0,0,0
 	.stabs	"complex float:t(0,23)=R3;8;0;",128,0,0,0
 	.stabs	"complex int:t(0,24)=s8real:(0,3),0,32;imag:(0,3),32,32;;",128,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwLandschap.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwLandschap.hpp",130,0,0,0
 	.stabs	"c:/MoSync/include/ma.h",130,0,0,0
 	.stabs	"c:/MoSync/include/maapi.h",130,0,0,0
 	.stabs	"c:/MoSync/include/maapi_defs.h",130,0,0,0
@@ -102,9 +102,9 @@
 	.stabn	162,0,0,0
 	.stabs	"size_t:t(2,1)=(0,16)",128,0,32,0
 	.stabn	162,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwMan.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwMan.hpp",130,0,0,0
 	.stabn	162,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwVlok.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwVlok.hpp",130,0,0,0
 	.stabs	"SneeuwVlok:Tt(6,1)=s24positionX:/0(0,3),0,32;positionY:/0(0,3),32,32;size:/0(0,3),64,32;speed:/0(0,3),96,32;direction:/0(0,3),128,32;dead:/0(0,4),160,8;__base_ctor::(6,2)=#(6,1),(0,6),(6,3)=*(6,1),(0,3),(0,3),(0,6);:_ZN10SneeuwVlokC2Eii;2A.;__comp_ctor::(6,2):_ZN10SneeuwVlokC1Eii;2A.;draw::(6,4)=#(6,1),(0,6),(6,3),(0,6);:_ZN10SneeuwVlok4drawEv;2A.;fall::(6,5)=#(6,1),(0,6),(6,3),(0,3),(0,6);:_ZN10SneeuwVlok4fallEi;2A.;isDead::(6,6)=#(6,1),(0,4),(6,3),(0,6);:_ZN10SneeuwVlok6isDeadEv;2A.;operator=::(6,7)=#(6,1),(6,8)=&(6,1),(6,3),(6,9)=&(6,10)=k(6,1),(0,6);:_ZN10SneeuwVlokaSERKS_;2A.;__base_ctor::(6,11)=#(6,1),(0,6),(6,3),(6,9),(0,6);:_ZN10SneeuwVlokC2ERKS_;2A.;__comp_ctor::(6,11):_ZN10SneeuwVlokC1ERKS_;2A.;;",128,0,14,0
 	.stabn	162,0,0,0
 	.stabs	"Vector<SneeuwVlok*>:Tt(1,1)=s12mSize:/1(0,3),0,32;mCapacity:/1(0,3),32,32;mData:/1(1,2)=*(6,3),64,32;__base_ctor::(1,3)=#(1,1),(0,6),(1,4)=*(1,1),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEC2Ei;2A.;__comp_ctor::(1,3):_ZN6MAUtil6VectorIP10SneeuwVlokEC1Ei;2A.;__base_ctor::(1,5)=#(1,1),(0,6),(1,4),(1,6)=*(1,7)=k(6,3),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEC2EPKS2_i;2A.;__comp_ctor::(1,5):_ZN6MAUtil6VectorIP10SneeuwVlokEC1EPKS2_i;2A.;__base_ctor::(1,8)=#(1,1),(0,6),(1,4),(1,9)=&(1,10)=k(1,1),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEC2ERKS3_;2A.;__comp_ctor::(1,8):_ZN6MAUtil6VectorIP10SneeuwVlokEC1ERKS3_;2A.;__base_dtor::(1,11)=#(1,1),(0,6),(1,4),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokED2Ev;2A.;__comp_dtor::(1,11):_ZN6MAUtil6VectorIP10SneeuwVlokED1Ev;2A.;operator=::(1,12)=#(1,1),(1,13)=&(1,1),(1,4),(1,9),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEaSERKS3_;2A.;add::(1,14)=#(1,1),(0,6),(1,4),(1,15)=&(1,7),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE3addERKS2_;2A.(1,5):_ZN6MAUtil6VectorIP10SneeuwVlokE3addEPKS2_i;2A.;remove::(1,16)=#(1,1),(0,6),(1,4),(1,2),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6removeEPS2_;2A.(1,17)=#(1,1),(0,6),(1,4),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6removeEi;2A.(1,18)=#(1,1),(0,6),(1,4),(0,3),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6removeEii;2A.;insert::(1,19)=#(1,1),(0,6),(1,4),(0,3),(6,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE6insertEiS2_;2A.;size::(1,20)=#(1,1),(0,3),(1,21)=*(1,10),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokE4sizeEv;2B.;resize::(1,17):_ZN6MAUtil6VectorIP10SneeuwVlokE6resizeEi;2A.;reserve::(1,17):_ZN6MAUtil6VectorIP10SneeuwVlokE7reserveEi;2A.;clear::(1,11):_ZN6MAUtil6VectorIP10SneeuwVlokE5clearEv;2A.;empty::(1,22)=#(1,1),(0,4),(1,21),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokE5emptyEv;2B.;capacity::(1,20):_ZNK6MAUtil6VectorIP10SneeuwVlokE8capacityEv;2B.;begin::(1,23)=#(1,1),(1,2),(1,4),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokE5beginEv;2A.;end::(1,23):_ZN6MAUtil6VectorIP10SneeuwVlokE3endEv;2A.;begin::(1,24)=#(1,1),(1,6),(1,21),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokE5beginEv;2B.;end::(1,24):_ZNK6MAUtil6VectorIP10SneeuwVlokE3endEv;2B.;operator[]::(1,25)=#(1,1),(1,26)=&(6,3),(1,4),(0,3),(0,6);:_ZN6MAUtil6VectorIP10SneeuwVlokEixEi;2A.(1,27)=#(1,1),(1,15),(1,21),(0,3),(0,6);:_ZNK6MAUtil6VectorIP10SneeuwVlokEixEi;2B.;pointer::(1,24):_ZNK6MAUtil6VectorIP10SneeuwVlokE7pointerEv;2B.(1,23):_ZN6MAUtil6VectorIP10SneeuwVlokE7pointerEv;2A.;;",128,0,94,0
@@ -155,7 +155,7 @@ Ltext1:
 	.dlab LBE4
 	.dlab LBE3
 	.dlab LBB5
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext2
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext2
 Ltext2:
 	.line 21
 	call &_maGetScrSize ; call non-native
@@ -169,10 +169,10 @@ Ltext2:
 	.line 26
 	ld   r14,#0x1e
 	ld   [d1],r14
-	.line 28
+	.line 29
 	ld   r14,#0x0
 	ld   [d1,4],r14
-	.line 31
+	.line 32
 	ld   i0,#0xc
 	call &__Znwm ; call non-native
 	ld   d0,r14
@@ -229,7 +229,7 @@ Ltext3:
 	.dlab LBE8
 	.dlab LBE7
 	.dlab LBB9
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext4
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext4
 Ltext4:
 	.line 21
 	call &_maGetScrSize ; call non-native
@@ -243,10 +243,10 @@ Ltext4:
 	.line 26
 	ld   r14,#0x1e
 	ld   [d1],r14
-	.line 28
+	.line 29
 	ld   r14,#0x0
 	ld   [d1,4],r14
-	.line 31
+	.line 32
 	ld   i0,#0xc
 	call &__Znwm ; call non-native
 	ld   d0,r14
@@ -272,13 +272,13 @@ Ltext4:
 	.stabn	192,0,0,LBB9-__ZN15SneeuwLandschapC2Ev
 	.stabn	224,0,0,LBE9-__ZN15SneeuwLandschapC2Ev
 Lscope1:
-	.stabs	"_ZN15SneeuwLandschap3runE7MAEvent:F(0,6)",36,0,37,__ZN15SneeuwLandschap3runE7MAEvent
-	.stabs	"this:P(0,25)",64,0,37,4
-	.stabs	"event:p(3,144)",160,0,37,0
+	.stabs	"_ZN15SneeuwLandschap3runE7MAEvent:F(0,6)",36,0,38,__ZN15SneeuwLandschap3runE7MAEvent
+	.stabs	"this:P(0,25)",64,0,38,4
+	.stabs	"event:p(3,144)",160,0,38,0
 	.global	__ZN15SneeuwLandschap3runE7MAEvent
 
 .func __ZN15SneeuwLandschap3runE7MAEvent, 6, void
-	.line 37
+	.line 38
 	push rt,d4
 	sub  sp,#0x4
 	ld   fr,sp
@@ -287,14 +287,14 @@ Lscope1:
 	.dlab LBB10
 	.dlab LBB11
 	.dlab LBB12
-	.line 39
+	.line 40
 	ld   r14,[fr]
 	ld   r0,#0x2
 	jc   eq,r14,r0,#L55
 L6:
 	.dlab LBE12
 	.dlab LBB13
-	.line 54
+	.line 55
 	ld   d3,#0x0
 	ld   d2,d0
 	add  d2,#0xc
@@ -303,7 +303,7 @@ L6:
 L32:
 	.dlab LBB14
 	.dlab LBB15
-	.line 56
+	.line 57
 	call &_rand ; call non-native
 	ld   d0,r14
 	ld   r0,[&_screenWidth]
@@ -358,15 +358,15 @@ L12:
 	.dlab LBE16
 	.dlab LBE15
 	.dlab LBE14
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext6
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext6
 Ltext6:
-	.line 54
+	.line 55
 	add  d3,#0x1
 	ld   r0,#0x6
 	jc   le,d3,r0,#L32
 	.dlab LBE13
 	.dlab LBB21
-	.line 61
+	.line 62
 	ld   d0,#0x0
 	.stabs	"c:/MoSync/include/MAUtil/Vector.h",132,0,0,Ltext7
 Ltext7:
@@ -385,9 +385,9 @@ L57:
 	ld   i0,[r14]
 	ld   i1,[&_screenHeight]
 	call &__ZN10SneeuwVlok4fallEi ; call non-native
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext8
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext8
 Ltext8:
-	.line 61
+	.line 62
 	add  d0,#0x1
 	.dlab LBB24
 	.dlab LBB25
@@ -531,17 +531,17 @@ L55:
 	.dlab LBE28
 	.dlab LBB44
 	.dlab LBB45
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext10
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext10
 Ltext10:
-	.line 42
+	.line 43
 	call &_maGetKeys ; call non-native
-	.line 45
+	.line 46
 	ld   r0,#0x1
 	jc   eq,r14,r0,#L61
-	.line 49
+	.line 50
 	ld   r0,#0x4
 	jc   ne,r14,r0,#L6
-	.line 50
+	.line 51
 	ld   i0,[d0,8]
 	ld   i1,#0x6
 	call &__ZN9SneeuwMan4moveEi ; call non-native
@@ -550,19 +550,19 @@ L49:
 	ld   i0,[d2,8]
 	jp   #L42
 L61:
-	.line 46
+	.line 47
 	ld   i0,[d0,8]
 	ld   i1,#0xfffffffa
-	.line 50
+	.line 51
 	call &__ZN9SneeuwMan4moveEi ; call non-native
 	jp   #L6
 	.dlab LBE45
 	.dlab LBE44
 	.dlab LBE27
 	.dlab LBE26
-	.stabs	"i:r(0,3)",64,0,54,7
+	.stabs	"i:r(0,3)",64,0,55,7
 	.stabn	192,0,0,LBB13-__ZN15SneeuwLandschap3runE7MAEvent
-	.stabs	"sneeuwVlok:(6,3)",128,0,56,-32
+	.stabs	"sneeuwVlok:(6,3)",128,0,57,-32
 	.stabn	192,0,0,LBB15-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabs	"newCapacity:r(0,3)",64,0,294,5
 	.stabn	192,0,0,LBB18-__ZN15SneeuwLandschap3runE7MAEvent
@@ -572,12 +572,12 @@ L61:
 	.stabn	224,0,0,LBE18-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabn	224,0,0,LBE15-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabn	224,0,0,LBE13-__ZN15SneeuwLandschap3runE7MAEvent
-	.stabs	"i:r(0,3)",64,0,61,4
+	.stabs	"i:r(0,3)",64,0,62,4
 	.stabn	192,0,0,LBB21-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabn	224,0,0,LBE21-__ZN15SneeuwLandschap3runE7MAEvent
-	.stabs	"i:r(0,3)",64,0,54,7
+	.stabs	"i:r(0,3)",64,0,55,7
 	.stabn	192,0,0,LBB28-__ZN15SneeuwLandschap3runE7MAEvent
-	.stabs	"sneeuwVlok:(6,3)",128,0,56,-32
+	.stabs	"sneeuwVlok:(6,3)",128,0,57,-32
 	.stabn	192,0,0,LBB30-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabs	"newCapacity:r(0,3)",64,0,294,5
 	.stabn	192,0,0,LBB33-__ZN15SneeuwLandschap3runE7MAEvent
@@ -602,7 +602,7 @@ L61:
 	.stabn	224,0,0,LBE41-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabn	224,0,0,LBE30-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabn	224,0,0,LBE28-__ZN15SneeuwLandschap3runE7MAEvent
-	.stabs	"key:r(0,3)",64,0,42,30
+	.stabs	"key:r(0,3)",64,0,43,30
 	.stabn	192,0,0,LBB45-__ZN15SneeuwLandschap3runE7MAEvent
 	.stabn	224,0,0,LBE45-__ZN15SneeuwLandschap3runE7MAEvent
 Lscope2:
@@ -677,7 +677,7 @@ L105:
 	and  r14,#0xff  ; zero extend
 	ld   r0,#0x0
 	jc   ne,r14,r0,#L104
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext12
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext12
 Ltext12:
 	.line 83
 	add  d2,#0x1
@@ -693,9 +693,9 @@ Ltext13:
 	jc   gt,r14,d2,#L105
 L93:
 	.dlab LBE48
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext14
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext14
 Ltext14:
-	.line 102
+	.line 104
 	call &_maUpdateScreen ; call non-native
 	.dlab LBE47
 	.dlab LBE46
@@ -787,12 +787,12 @@ L99:
 	.dlab LBE64
 	.dlab LBE63
 	.dlab LBE62
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext16
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext16
 Ltext16:
-	.line 92
+	.line 94
 	ld   r14,[d3,4]
 	add  r14,#0x1
-	.line 93
+	.line 95
 	ld   r0,#0xc8
 	jc   gt,r14,r0,#L108
 	ld   [d3,4],r14
@@ -867,16 +867,16 @@ L108:
 	.dlab LBE78
 	.dlab LBE77
 	.dlab LBE76
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext18
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\SneeuwLandschap.cpp",132,0,0,Ltext18
 Ltext18:
-	.line 95
+	.line 97
 	ld   r14,[d3]
 	add  r14,#0x1
 	ld   [d3],r14
-	.line 96
+	.line 98
 	ld   r2,#0x0
 	ld   [d3,4],r2
-	.line 98
+	.line 100
 	ld   i0,[d3,8]
 	ld   i1,[&_screenHeight]
 	sub  i1,r14

@@ -1,6 +1,6 @@
 .model full
-	.sourcedir 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman/'
-	.sourcefile 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman\SneeuwVlok.cpp'
+	.sourcedir 'C:\Users\Niek\git\sneeuwman\sneeuwman/'
+	.sourcefile 'C:\Users\Niek\git\sneeuwman\sneeuwman\SneeuwVlok.cpp'
 	.stabs	"gcc2_compiled.",60,0,0,0
 	.stabs	"__vtbl_ptr_type:t(0,1)=*(0,2)=f(0,3)=r(0,3);-2147483648;2147483647;",128,0,0,0
 	.stabs	"bool:t(0,4)=@s8;-16;",128,0,0,0
@@ -105,28 +105,28 @@
 	.stabs	"div_t:Tt(4,1)=s8quot:(0,3),0,32;rem:(0,3),32,32;operator=::(4,2)=#(4,1),(4,3)=&(4,1),(4,4)=*(4,1),(4,5)=&(4,6)=k(4,1),(0,6);:_ZN5div_taSERKS_;2A.;__base_ctor::(4,7)=#(4,1),(0,6),(4,4),(4,5),(0,6);:_ZN5div_tC2ERKS_;2A.;__comp_ctor::(4,7):_ZN5div_tC1ERKS_;2A.;__base_ctor::(4,8)=#(4,1),(0,6),(4,4),(0,6);:_ZN5div_tC2Ev;2A.;__comp_ctor::(4,8):_ZN5div_tC1Ev;2A.;;",128,0,58,0
 	.stabs	"div_t:t(4,9)=(4,1)",128,0,60,0
 	.stabn	162,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwVlok.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwVlok.hpp",130,0,0,0
 	.stabs	"SneeuwVlok:Tt(5,1)=s24positionX:/0(0,3),0,32;positionY:/0(0,3),32,32;size:/0(0,3),64,32;speed:/0(0,3),96,32;direction:/0(0,3),128,32;dead:/0(0,4),160,8;__base_ctor::(5,2)=#(5,1),(0,6),(5,3)=*(5,1),(0,3),(0,3),(0,6);:_ZN10SneeuwVlokC2Eii;2A.;__comp_ctor::(5,2):_ZN10SneeuwVlokC1Eii;2A.;draw::(5,4)=#(5,1),(0,6),(5,3),(0,6);:_ZN10SneeuwVlok4drawEv;2A.;fall::(5,5)=#(5,1),(0,6),(5,3),(0,3),(0,6);:_ZN10SneeuwVlok4fallEi;2A.;isDead::(5,6)=#(5,1),(0,4),(5,3),(0,6);:_ZN10SneeuwVlok6isDeadEv;2A.;operator=::(5,7)=#(5,1),(5,8)=&(5,1),(5,3),(5,9)=&(5,10)=k(5,1),(0,6);:_ZN10SneeuwVlokaSERKS_;2A.;__base_ctor::(5,11)=#(5,1),(0,6),(5,3),(5,9),(0,6);:_ZN10SneeuwVlokC2ERKS_;2A.;__comp_ctor::(5,11):_ZN10SneeuwVlokC1ERKS_;2A.;;",128,0,14,0
 	.stabn	162,0,0,0
 .code
-	.stabs	"_ZN10SneeuwVlokC2Eii:F(0,6)",36,0,13,__ZN10SneeuwVlokC2Eii
-	.stabs	"this:P(0,25)=k(5,3)",64,0,13,4
-	.stabs	"positionX:P(0,3)",64,0,13,13
-	.stabs	"positionY:P(0,3)",64,0,13,14
+	.stabs	"_ZN10SneeuwVlokC2Eii:F(0,6)",36,0,14,__ZN10SneeuwVlokC2Eii
+	.stabs	"this:P(0,25)=k(5,3)",64,0,14,4
+	.stabs	"positionX:P(0,3)",64,0,14,13
+	.stabs	"positionY:P(0,3)",64,0,14,14
 	.global	__ZN10SneeuwVlokC2Eii
 
 .func __ZN10SneeuwVlokC2Eii, 3, void
-	.line 13
+	.line 14
 	push rt,d0
 	ld   fr,sp
 	add  fr,#0xc
 	ld   d0,i0
 	.dlab LBB2
-	.line 14
-	ld   [i0],i1
 	.line 15
-	ld   [i0,4],i2
+	ld   [i0],i1
 	.line 16
+	ld   [i0,4],i2
+	.line 17
 	call &_rand ; call non-native
 	ld   r0,r14
 	div  r0,#0x6
@@ -134,7 +134,7 @@
 	sub  r14,r0
 	add  r14,#0x1
 	ld   [d0,8],r14
-	.line 17
+	.line 18
 	call &_rand ; call non-native
 	ld   r0,r14
 	div  r0,#0x5
@@ -142,7 +142,7 @@
 	sub  r14,r0
 	add  r14,#0xfffffffe
 	ld   [d0,16],r14
-	.line 18
+	.line 19
 	call &_rand ; call non-native
 	ld   r0,r14
 	div  r0,#0x7
@@ -154,24 +154,24 @@
 	pop  rt,d0
 	ret
 Lscope0:
-	.stabs	"_ZN10SneeuwVlokC1Eii:F(0,6)",36,0,13,__ZN10SneeuwVlokC1Eii
-	.stabs	"this:P(0,25)",64,0,13,4
-	.stabs	"positionX:P(0,3)",64,0,13,13
-	.stabs	"positionY:P(0,3)",64,0,13,14
+	.stabs	"_ZN10SneeuwVlokC1Eii:F(0,6)",36,0,14,__ZN10SneeuwVlokC1Eii
+	.stabs	"this:P(0,25)",64,0,14,4
+	.stabs	"positionX:P(0,3)",64,0,14,13
+	.stabs	"positionY:P(0,3)",64,0,14,14
 	.global	__ZN10SneeuwVlokC1Eii
 
 .func __ZN10SneeuwVlokC1Eii, 3, void
-	.line 13
+	.line 14
 	push rt,d0
 	ld   fr,sp
 	add  fr,#0xc
 	ld   d0,i0
 	.dlab LBB3
-	.line 14
-	ld   [i0],i1
 	.line 15
-	ld   [i0,4],i2
+	ld   [i0],i1
 	.line 16
+	ld   [i0,4],i2
+	.line 17
 	call &_rand ; call non-native
 	ld   r0,r14
 	div  r0,#0x6
@@ -179,7 +179,7 @@ Lscope0:
 	sub  r14,r0
 	add  r14,#0x1
 	ld   [d0,8],r14
-	.line 17
+	.line 18
 	call &_rand ; call non-native
 	ld   r0,r14
 	div  r0,#0x5
@@ -187,7 +187,7 @@ Lscope0:
 	sub  r14,r0
 	add  r14,#0xfffffffe
 	ld   [d0,16],r14
-	.line 18
+	.line 19
 	call &_rand ; call non-native
 	ld   r0,r14
 	div  r0,#0x7
@@ -199,21 +199,21 @@ Lscope0:
 	pop  rt,d0
 	ret
 Lscope1:
-	.stabs	"_ZN10SneeuwVlok4drawEv:F(0,6)",36,0,22,__ZN10SneeuwVlok4drawEv
-	.stabs	"this:P(0,25)",64,0,22,4
+	.stabs	"_ZN10SneeuwVlok4drawEv:F(0,6)",36,0,24,__ZN10SneeuwVlok4drawEv
+	.stabs	"this:P(0,25)",64,0,24,4
 	.global	__ZN10SneeuwVlok4drawEv
 
 .func __ZN10SneeuwVlok4drawEv, 1, void
-	.line 22
+	.line 24
 	push rt,d0
 	ld   fr,sp
 	add  fr,#0xc
 	ld   d0,i0
 	.dlab LBB4
-	.line 23
+	.line 25
 	ld   i0,#0xffffff
 	call &_maSetColor ; call non-native
-	.line 24
+	.line 26
 	ld   i2,[d0,8]
 	ld   i0,[d0]
 	ld   i1,[d0,4]
@@ -223,56 +223,56 @@ Lscope1:
 	pop  rt,d0
 	ret
 Lscope2:
-	.stabs	"_ZN10SneeuwVlok4fallEi:F(0,6)",36,0,28,__ZN10SneeuwVlok4fallEi
-	.stabs	"this:P(0,25)",64,0,28,12
-	.stabs	"groundLevel:P(0,3)",64,0,28,13
+	.stabs	"_ZN10SneeuwVlok4fallEi:F(0,6)",36,0,31,__ZN10SneeuwVlok4fallEi
+	.stabs	"this:P(0,25)",64,0,31,12
+	.stabs	"groundLevel:P(0,3)",64,0,31,13
 	.global	__ZN10SneeuwVlok4fallEi
 
 .func __ZN10SneeuwVlok4fallEi, 2, void
-	.line 28
+	.line 31
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB5
-	.line 29
+	.line 32
 	ld   r14,[i0,4]
 	jc   ge,r14,i1,#L5
-	.line 31
+	.line 34
 	ld   r0,[i0,12]
 	add  r14,r0
 	ld   [i0,4],r14
-	.line 32
+	.line 35
 	ld   r14,[i0]
 	ld   r0,[i0,16]
 	add  r14,r0
 	ld   [i0],r14
-	.line 33
+	.line 36
 	ld   r14,#0x0
 	ld.b [i0,20],r14
 	.dlab LBE5
-	.line 37
+	.line 40
 	pop  fr,fr
 	ret
 L5:
 	.dlab LBB6
-	.line 36
+	.line 39
 	ld   r0,#0x1
 	ld.b [i0,20],r0
 	.dlab LBE6
-	.line 37
+	.line 40
 	pop  fr,fr
 	ret
 Lscope3:
-	.stabs	"_ZN10SneeuwVlok6isDeadEv:F(0,4)",36,0,40,__ZN10SneeuwVlok6isDeadEv
-	.stabs	"this:P(0,25)",64,0,40,12
+	.stabs	"_ZN10SneeuwVlok6isDeadEv:F(0,4)",36,0,44,__ZN10SneeuwVlok6isDeadEv
+	.stabs	"this:P(0,25)",64,0,44,12
 	.global	__ZN10SneeuwVlok6isDeadEv
 
 .func __ZN10SneeuwVlok6isDeadEv, 1, int
-	.line 40
+	.line 44
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
-	.line 42
+	.line 46
 	ld.b r14,[i0,20]
 	and  r14,#0xff  ; zero extend
 	pop  fr,fr

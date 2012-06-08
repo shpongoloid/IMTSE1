@@ -19,5 +19,6 @@
 <property key="com.mobilesorcery.sdk.html5.support" value="true"/>
 <property key="profile.mgr.type" value="0"/>
 <property key="template.id" value="project.html5.hybrid"/>
+<property key="winmobilecs:guid" value="42e4a450-9305-102f-80b7-9df774951726"/>
 </properties>
 </project>

@@ -1,6 +1,6 @@
 .model full
-	.sourcedir 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman/'
-	.sourcefile 'C:\Users\Niek\Dropbox\workspaces\workspaces\moSync\sneeuwman\SneeuwMan.cpp'
+	.sourcedir 'C:\Users\Niek\git\sneeuwman\sneeuwman/'
+	.sourcefile 'C:\Users\Niek\git\sneeuwman\sneeuwman\SneeuwMan.cpp'
 	.stabs	"gcc2_compiled.",60,0,0,0
 	.stabs	"__vtbl_ptr_type:t(0,1)=*(0,2)=f(0,3)=r(0,3);-2147483648;2147483647;",128,0,0,0
 	.stabs	"bool:t(0,4)=@s8;-16;",128,0,0,0
@@ -101,7 +101,7 @@
 	.stabn	162,0,0,0
 	.stabs	"size_t:t(1,1)=(0,16)",128,0,32,0
 	.stabn	162,0,0,0
-	.stabs	"C:\\Users\\Niek\\Dropbox\\workspaces\\workspaces\\moSync\\sneeuwman\\/SneeuwMan.hpp",130,0,0,0
+	.stabs	"C:\\Users\\Niek\\git\\sneeuwman\\sneeuwman\\/SneeuwMan.hpp",130,0,0,0
 	.stabn	162,0,0,0
 	.stabs	"SneeuwMan:Tt(0,25)=s12_vptr$SneeuwMan:(0,26)=*(0,1),0,32;positionX:/0(0,3),32,32;positionY:/0(0,3),64,32;__base_ctor::(0,27)=#(0,25),(0,6),(0,28)=*(0,25),(0,3),(0,3),(0,6);:_ZN9SneeuwManC2Eii;2A.;__comp_ctor::(0,27):_ZN9SneeuwManC1Eii;2A.;move::(0,29)=#(0,25),(0,6),(0,28),(0,3),(0,6);:_ZN9SneeuwMan4moveEi;2A.;draw::(0,30)=#(0,25),(0,6),(0,28),(0,6);:_ZN9SneeuwMan4drawEv;2A.;setHeight::(0,29):_ZN9SneeuwMan9setHeightEi;2A.;__base_dtor::(0,30):_ZN9SneeuwManD2Ev;2A.;__comp_dtor::(0,30):_ZN9SneeuwManD1Ev;2A*0;(0,25);;__deleting_dtor::(0,30):_ZN9SneeuwManD0Ev;2A*1;(0,25);;operator=::(0,31)=#(0,25),(0,32)=&(0,25),(0,28),(0,33)=&(0,34)=k(0,25),(0,6);:_ZN9SneeuwManaSERKS_;2A.;__base_ctor::(0,35)=#(0,25),(0,6),(0,28),(0,33),(0,6);:_ZN9SneeuwManC2ERKS_;2A.;__comp_ctor::(0,35):_ZN9SneeuwManC1ERKS_;2A.;;~%(0,25);",128,0,14,0
 	.global	__ZTV9SneeuwMan
@@ -113,119 +113,119 @@ __ZTV9SneeuwMan:
 	.long	__ZN9SneeuwManD1Ev
 	.long	__ZN9SneeuwManD0Ev
 .code
-	.stabs	"_ZN9SneeuwManC2Eii:F(0,6)",36,0,6,__ZN9SneeuwManC2Eii
-	.stabs	"this:P(0,36)=k(0,28)",64,0,6,12
-	.stabs	"positionX:P(0,3)",64,0,6,13
-	.stabs	"positionY:P(0,3)",64,0,6,14
+	.stabs	"_ZN9SneeuwManC2Eii:F(0,6)",36,0,14,__ZN9SneeuwManC2Eii
+	.stabs	"this:P(0,36)=k(0,28)",64,0,14,12
+	.stabs	"positionX:P(0,3)",64,0,14,13
+	.stabs	"positionY:P(0,3)",64,0,14,14
 	.global	__ZN9SneeuwManC2Eii
 
 .func __ZN9SneeuwManC2Eii, 3, void
-	.line 6
+	.line 14
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB2
-	.line 6
+	.line 14
 	ld   r14,#__ZTV9SneeuwMan+8
 	ld   [i0],r14
-	.line 7
+	.line 15
 	ld   [i0,4],i1
-	.line 8
+	.line 16
 	ld   [i0,8],i2
 	.dlab LBE2
 	pop  fr,fr
 	ret
 Lscope0:
-	.stabs	"_ZN9SneeuwManC1Eii:F(0,6)",36,0,6,__ZN9SneeuwManC1Eii
-	.stabs	"this:P(0,36)",64,0,6,12
-	.stabs	"positionX:P(0,3)",64,0,6,13
-	.stabs	"positionY:P(0,3)",64,0,6,14
+	.stabs	"_ZN9SneeuwManC1Eii:F(0,6)",36,0,14,__ZN9SneeuwManC1Eii
+	.stabs	"this:P(0,36)",64,0,14,12
+	.stabs	"positionX:P(0,3)",64,0,14,13
+	.stabs	"positionY:P(0,3)",64,0,14,14
 	.global	__ZN9SneeuwManC1Eii
 
 .func __ZN9SneeuwManC1Eii, 3, void
-	.line 6
+	.line 14
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB3
-	.line 6
+	.line 14
 	ld   r14,#__ZTV9SneeuwMan+8
 	ld   [i0],r14
-	.line 7
+	.line 15
 	ld   [i0,4],i1
-	.line 8
+	.line 16
 	ld   [i0,8],i2
 	.dlab LBE3
 	pop  fr,fr
 	ret
 Lscope1:
-	.stabs	"_ZN9SneeuwManD2Ev:F(0,6)",36,0,12,__ZN9SneeuwManD2Ev
-	.stabs	"this:P(0,36)",64,0,12,12
+	.stabs	"_ZN9SneeuwManD2Ev:F(0,6)",36,0,21,__ZN9SneeuwManD2Ev
+	.stabs	"this:P(0,36)",64,0,21,12
 	.global	__ZN9SneeuwManD2Ev
 
 .func __ZN9SneeuwManD2Ev, 1, void
-	.line 12
+	.line 21
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB4
-	.line 12
+	.line 21
 	ld   r14,#__ZTV9SneeuwMan+8
 	ld   [i0],r14
 	.dlab LBE4
-	.line 14
+	.line 23
 	pop  fr,fr
 	ret
 Lscope2:
-	.stabs	"_ZN9SneeuwManD1Ev:F(0,6)",36,0,12,__ZN9SneeuwManD1Ev
-	.stabs	"this:P(0,36)",64,0,12,12
+	.stabs	"_ZN9SneeuwManD1Ev:F(0,6)",36,0,21,__ZN9SneeuwManD1Ev
+	.stabs	"this:P(0,36)",64,0,21,12
 	.global	__ZN9SneeuwManD1Ev
 
 .func __ZN9SneeuwManD1Ev, 1, void
-	.line 12
+	.line 21
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB5
-	.line 12
+	.line 21
 	ld   r14,#__ZTV9SneeuwMan+8
 	ld   [i0],r14
 	.dlab LBE5
-	.line 14
+	.line 23
 	pop  fr,fr
 	ret
 Lscope3:
-	.stabs	"_ZN9SneeuwManD0Ev:F(0,6)",36,0,12,__ZN9SneeuwManD0Ev
-	.stabs	"this:P(0,36)",64,0,12,12
+	.stabs	"_ZN9SneeuwManD0Ev:F(0,6)",36,0,21,__ZN9SneeuwManD0Ev
+	.stabs	"this:P(0,36)",64,0,21,12
 	.global	__ZN9SneeuwManD0Ev
 
 .func __ZN9SneeuwManD0Ev, 1, void
-	.line 12
+	.line 21
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
 	.dlab LBB6
-	.line 12
+	.line 21
 	ld   r14,#__ZTV9SneeuwMan+8
 	ld   [i0],r14
 	.dlab LBE6
-	.line 14
+	.line 23
 	call &__ZdlPv ; call non-native
 	pop  rt,fr
 	ret
 Lscope4:
-	.stabs	"_ZN9SneeuwMan4moveEi:F(0,6)",36,0,17,__ZN9SneeuwMan4moveEi
-	.stabs	"this:P(0,36)",64,0,17,12
-	.stabs	"direction:P(0,3)",64,0,17,13
+	.stabs	"_ZN9SneeuwMan4moveEi:F(0,6)",36,0,27,__ZN9SneeuwMan4moveEi
+	.stabs	"this:P(0,36)",64,0,27,12
+	.stabs	"direction:P(0,3)",64,0,27,13
 	.global	__ZN9SneeuwMan4moveEi
 
 .func __ZN9SneeuwMan4moveEi, 2, void
-	.line 17
+	.line 27
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB7
-	.line 18
+	.line 28
 	ld   r14,[i0,4]
 	add  r14,i1
 	ld   [i0,4],r14
@@ -233,45 +233,45 @@ Lscope4:
 	pop  fr,fr
 	ret
 Lscope5:
-	.stabs	"_ZN9SneeuwMan9setHeightEi:F(0,6)",36,0,22,__ZN9SneeuwMan9setHeightEi
-	.stabs	"this:P(0,36)",64,0,22,12
-	.stabs	"sneeuwPositie:P(0,3)",64,0,22,13
+	.stabs	"_ZN9SneeuwMan9setHeightEi:F(0,6)",36,0,33,__ZN9SneeuwMan9setHeightEi
+	.stabs	"this:P(0,36)",64,0,33,12
+	.stabs	"sneeuwPositie:P(0,3)",64,0,33,13
 	.global	__ZN9SneeuwMan9setHeightEi
 
 .func __ZN9SneeuwMan9setHeightEi, 2, void
-	.line 22
+	.line 33
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
 	.dlab LBB8
-	.line 23
+	.line 34
 	ld   [i0,8],i1
 	.dlab LBE8
 	pop  fr,fr
 	ret
 Lscope6:
-	.stabs	"_ZN9SneeuwMan4drawEv:F(0,6)",36,0,27,__ZN9SneeuwMan4drawEv
-	.stabs	"this:P(0,36)",64,0,27,4
+	.stabs	"_ZN9SneeuwMan4drawEv:F(0,6)",36,0,39,__ZN9SneeuwMan4drawEv
+	.stabs	"this:P(0,36)",64,0,39,4
 	.global	__ZN9SneeuwMan4drawEv
 
 .func __ZN9SneeuwMan4drawEv, 1, void
-	.line 27
+	.line 39
 	push rt,d0
 	ld   fr,sp
 	add  fr,#0xc
 	ld   d0,i0
 	.dlab LBB9
-	.line 28
+	.line 40
 	ld   i0,#0x888888
 	call &_maSetColor ; call non-native
-	.line 29
+	.line 41
 	ld   i0,[d0,4]
 	ld   i1,[d0,8]
 	add  i1,#0xffffffe2
 	ld   i2,#0x1e
 	ld   i3,i2
 	call &_maFillRect ; call non-native
-	.line 30
+	.line 42
 	ld   i0,[d0,4]
 	add  i0,#0x5
 	ld   i1,[d0,8]
